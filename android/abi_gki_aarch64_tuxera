@@ -221,7 +221,6 @@ sys_tz
 tag_pages_for_writeback
 __test_set_page_writeback
 time64_to_tm
-_trace_android_vh_record_pcpu_rwsem_starttime
 truncate_inode_pages
 truncate_inode_pages_final
 truncate_setsize
