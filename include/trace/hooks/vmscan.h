@@ -50,9 +50,6 @@ DECLARE_HOOK(android_vh_inactive_is_low,
 DECLARE_HOOK(android_vh_snapshot_refaults,
 	TP_PROTO(struct lruvec *target_lruvec),
 	TP_ARGS(target_lruvec));
-DECLARE_HOOK(android_vh_check_page_look_around_ref,
-	TP_PROTO(struct page *page, int *skip),
-	TP_ARGS(page, skip));
 DECLARE_HOOK(android_vh_vmscan_kswapd_done,
 	TP_PROTO(int node_id, unsigned int highest_zoneidx, unsigned int alloc_order,
 		unsigned int reclaim_order),
