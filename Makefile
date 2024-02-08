@@ -1,8 +1,8 @@
 # SPDX-License-Identifier: GPL-2.0
 VERSION = 5
 PATCHLEVEL = 10
-SUBLEVEL = 189
-EXTRAVERSION =
+SUBLEVEL = 110
+EXTRAVERSION = Goku-sheng
 NAME = Dare mighty things
 
 # *DOCUMENTATION*
